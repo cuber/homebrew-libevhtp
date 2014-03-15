@@ -12,7 +12,7 @@ class Libevhtp < Formula
   depends_on 'libevent'
  
   def install
-    system "cmake", ".", "-DEVHTP_DISABLE_SSL:STRING=ON", *std_cmake_args
+    system "cmake", ".", *std_cmake_args
     system "make install" # if this fails, try separate make/make install steps
   end
 end
