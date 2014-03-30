@@ -2,9 +2,9 @@ require 'formula'
  
 class Libevhtp < Formula
   homepage 'http://github.com/ellzey/libevhtp'
-  url 'https://github.com/ellzey/libevhtp/archive/1.2.8.tar.gz'
-  version '1.2.8'
-  sha1 '6d6064344b45675c250540279abea1dd8a0e3cff'
+  url 'https://github.com/ellzey/libevhtp/archive/1.2.9.tar.gz'
+  version '1.2.9'
+  sha1 'c4edfcfd1427db26e585ee7bc9bce7df4f10ec3d'
  
   head 'git://github.com/ellzey/libevhtp.git'
  
