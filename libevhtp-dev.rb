@@ -4,7 +4,7 @@ class LibevhtpDev < Formula
   homepage 'http://github.com/ellzey/libevhtp'
   url 'https://github.com/ellzey/libevhtp/archive/develop.zip'
   version 'develope'
-  sha1 '02a72707354e64143b20669e073c7cfbeb3672b8'
+  sha256 '082cc750edac24b73249ea020b80713026fa3e03ee495c2b003832a3c40276c2'
  
   head 'git://github.com/ellzey/libevhtp.git'
  
