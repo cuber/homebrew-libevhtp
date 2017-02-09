@@ -1,12 +1,12 @@
 require 'formula'
  
 class LibevhtpDev < Formula
-  homepage 'http://github.com/ellzey/libevhtp'
-  url 'https://github.com/ellzey/libevhtp/archive/develop.zip'
-  version 'develope'
-  sha1 '02a72707354e64143b20669e073c7cfbeb3672b8'
+  homepage 'http://github.com/cuber/libevhtp'
+  url 'https://github.com/cuber/libevhtp/archive/develop.zip'
+  version 'a9705c8'
+  sha256 '8f573e4f3a01826d33f9a63edddf6f4c7fb7e79fab9307836758f493d1f36530'
  
-  head 'git://github.com/ellzey/libevhtp.git'
+  head 'git://github.com/cuber/libevhtp.git'
  
   depends_on 'cmake' => :build
   depends_on 'libevent'
