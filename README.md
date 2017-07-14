@@ -1,7 +1,7 @@
 homebrew-libevhtp
 =================
 
-Thanks to [ellzey](https://github.com/ellzey/libevhtp/ "Libevhtp - Based libevent HTTP framework")
+Thanks to [ellzey](https://github.com/criticalstack/libevhtp/ "Libevhtp - Based libevent HTTP framework")
 
 Usage.
 -----------------
