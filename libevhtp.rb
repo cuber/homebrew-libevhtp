@@ -4,7 +4,7 @@ class Libevhtp < Formula
   homepage 'http://github.com/criticalstack/libevhtp'
   url 'https://github.com/criticalstack/libevhtp/archive/1.2.11n.tar.gz'
   version '1.2.11n'
-  sha256 'dd914c7f09eb84738fb45bbcf24ce17f6b0d008e28ff2d773b2bf7e761b10295'
+  sha256 'ae114300659267c7e5f9805ba15f7e3f3461613371f38e3f84520a1703146afd'
  
   head 'git://github.com/criticalstack/libevhtp.git'
  
