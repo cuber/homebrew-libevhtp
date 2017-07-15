@@ -2,9 +2,9 @@ require 'formula'
  
 class LibevhtpDev < Formula
   homepage 'http://github.com/criticalstack/libevhtp'
-  url 'https://github.com/criticalstack/libevhtp/archive/develop.zip'
-  version 'develope'
-  sha256 '082cc750edac24b73249ea020b80713026fa3e03ee495c2b003832a3c40276c2'
+  url 'https://github.com/criticalstack/libevhtp/archive/1.2.12-pre2.zip'
+  version 'v1.2.12-pre2'
+  sha256 '55392d090edd5f8bcc6f85eb0f26fb4ee58a3c76bbb5cdb6a9109998c270467a'
  
   head 'git://github.com/criticalstack/libevhtp.git'
  

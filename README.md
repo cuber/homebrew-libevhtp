@@ -6,6 +6,6 @@ Thanks to [ellzey](https://github.com/criticalstack/libevhtp/ "Libevhtp - Based 
 Usage.
 -----------------
 ``` bash
-brew tap cuber/homebrew-libevhtp
+brew tap pusateri/homebrew-libevhtp
 brew install libevhtp
 ```
