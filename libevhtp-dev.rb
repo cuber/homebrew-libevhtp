@@ -22,23 +22,29 @@ end
 
 __END__
 diff --git a/evhtp.h b/evhtp.h
-index e0d7a58..f80bfdb 100644
+index e0d7a58..07bdc2e 100644
 --- a/evhtp.h
 +++ b/evhtp.h
-@@ -5,13 +5,13 @@
-
+@@ -1,17 +1,17 @@
+-#include <evhtp-config.h>
++#include "evhtp-config.h"
+ 
+ #ifndef __EVHTP__H__
+ #define __EVHTP__H__
+ 
  /** @file */
  #ifndef EVHTP_DISABLE_EVTHR
 -#include <evthr.h>
 +#include "evthr.h"
  #endif
-
+ 
 -#include <htparse.h>
 +#include "htparse.h"
-
+ 
  #ifndef EVHTP_DISABLE_REGEX
 -#include <onigposix.h>
 +#include "onigposix.h"
  #endif
-
+ 
  #include <sys/queue.h>
+
