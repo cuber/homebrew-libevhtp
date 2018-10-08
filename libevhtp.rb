@@ -27,10 +27,41 @@ index ee79fa8..fe817e6 100644
 +++ b/CMakeLists.txt
 @@ -293,7 +293,7 @@ if (NOT LIB_INSTALL_DIR)
  endif (NOT LIB_INSTALL_DIR)
-
+ 
  if(NOT INCLUDE_INSTALL_DIR)
--       set(INCLUDE_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/include)
-+       set(INCLUDE_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/include/evhtp)
+-	set(INCLUDE_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/include)
++	set(INCLUDE_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/include/evhtp)
  endif()
-
+ 
  install (TARGETS evhtp DESTINATION ${LIB_INSTALL_DIR})
+diff --git a/evhtp.h b/evhtp.h
+index ddc4996..2dc6141 100644
+--- a/evhtp.h
++++ b/evhtp.h
+@@ -1,7 +1,7 @@
+ #ifndef __EVHTP__H__
+ #define __EVHTP__H__
+ 
+-#include <evhtp-config.h>
++#include "evhtp-config.h"
+ 
+ #ifndef EVHTP_EXPORT
+ # if (defined __GNUC__ && __GNUC__ >= 4) || defined __INTEL_COMPILER || defined __clang__
+@@ -12,13 +12,13 @@
+ #endif
+ 
+ #ifndef EVHTP_DISABLE_EVTHR
+-#include <evthr.h>
++#include "evthr.h"
+ #endif
+ 
+-#include <htparse.h>
++#include "htparse.h"
+ 
+ #ifndef EVHTP_DISABLE_REGEX
+-#include <onigposix.h>
++#include "onigposix.h"
+ #endif
+ 
+ #include <sys/queue.h>
+
